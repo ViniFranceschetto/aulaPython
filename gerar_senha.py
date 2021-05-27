@@ -9,4 +9,4 @@ all = minuscula+maiuscula+numeros+simbolos
 tamanho = int(input("digite tamanho da senha: "))
 
 password = "".join(random.sample(all, tamanho))
-print(password)
+print("sua senha é: ",password)
